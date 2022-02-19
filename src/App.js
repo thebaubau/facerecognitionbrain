@@ -12,7 +12,7 @@ import FaceRecognition from './components/FaceRecognition/FaceRecognition';
 import particle from './particles2.json'
 
 const app = new Clarifai.App({
-  apiKey: 'cc3deef7d0a2470ab801276ac4b4394e'
+  apiKey: 'YOUR_API_KEY'
 });
 
 class App extends Component {
