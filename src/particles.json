@@ -2,12 +2,12 @@
   "autoPlay": true,
   "background": {
     "color": {
-      "value": "#043564"
+      "value": "#0d47a1"
     },
-    "image": "url('http://vincentgarreau.com/particles.js/assets/img/kbLd9vb_new.gif')",
-    "position": "0 50%",
+    "image": "",
+    "position": "50% 50%",
     "repeat": "no-repeat",
-    "size": "60%",
+    "size": "cover",
     "opacity": 0
   },
   "backgroundMask": {
@@ -26,116 +26,13 @@
   },
   "detectRetina": true,
   "duration": 0,
-  "fpsLimit": 120,
-  "interactivity": {
-    "detectsOn": "window",
-    "events": {
-      "onClick": {
-        "enable": true,
-        "mode": "repulse"
-      },
-      "onDiv": {
-        "selectors": [],
-        "enable": false,
-        "mode": [],
-        "type": "circle"
-      },
-      "onHover": {
-        "enable": false,
-        "mode": "grab",
-        "parallax": {
-          "enable": false,
-          "force": 2,
-          "smooth": 10
-        }
-      },
-      "resize": true
-    },
-    "modes": {
-      "attract": {
-        "distance": 200,
-        "duration": 0.4,
-        "easing": "ease-out-quad",
-        "factor": 1,
-        "maxSpeed": 50,
-        "speed": 1
-      },
-      "bounce": {
-        "distance": 200
-      },
-      "bubble": {
-        "distance": 400,
-        "duration": 2,
-        "mix": false,
-        "opacity": 8,
-        "size": 40
-      },
-      "connect": {
-        "distance": 80,
-        "links": {
-          "opacity": 0.5
-        },
-        "radius": 60
-      },
-      "grab": {
-        "distance": 200,
-        "links": {
-          "blink": false,
-          "consent": false,
-          "opacity": 1
-        }
-      },
-      "light": {
-        "area": {
-          "gradient": {
-            "start": {
-              "value": "#ffffff"
-            },
-            "stop": {
-              "value": "#000000"
-            }
-          },
-          "radius": 1000
-        },
-        "shadow": {
-          "color": {
-            "value": "#000000"
-          },
-          "length": 2000
-        }
-      },
-      "push": {
-        "default": true,
-        "groups": [],
-        "quantity": 4
-      },
-      "remove": {
-        "quantity": 2
-      },
-      "repulse": {
-        "distance": 200,
-        "duration": 0.4,
-        "factor": 100,
-        "speed": 1,
-        "maxSpeed": 50,
-        "easing": "ease-out-quad"
-      },
-      "slow": {
-        "factor": 3,
-        "radius": 200
-      },
-      "trail": {
-        "delay": 1,
-        "pauseOnStop": false,
-        "quantity": 1
-      }
-    }
-  },
+  "fpsLimit": 30,
+
   "manualParticles": [],
   "motion": {
     "disable": false,
     "reduce": {
-      "factor": 4,
+      "factor": 2,
       "value": true
     }
   },
@@ -257,16 +154,16 @@
         "value": "#ffffff"
       },
       "consent": false,
-      "distance": 150,
-      "enable": false,
+      "distance": 100,
+      "enable": true,
       "frequency": 1,
       "opacity": 0.4,
       "shadow": {
         "blur": 5,
         "color": {
-          "value": "#00ff00"
+          "value": "#000000"
         },
-        "enable": false
+        "enable": true
       },
       "triangles": {
         "enable": false,
@@ -290,7 +187,7 @@
       },
       "decay": 0,
       "distance": {},
-      "direction": "left",
+      "direction": "none",
       "drift": 0,
       "enable": true,
       "gravity": {
@@ -320,12 +217,12 @@
       },
       "random": false,
       "size": false,
-      "speed": 6,
+      "speed": 2,
       "spin": {
         "acceleration": 0,
         "enable": false
       },
-      "straight": true,
+      "straight": false,
       "trail": {
         "enable": false,
         "length": 10,
@@ -338,12 +235,12 @@
     },
     "number": {
       "density": {
-        "enable": false,
+        "enable": true,
         "area": 800,
         "factor": 1000
       },
       "limit": 0,
-      "value": 100
+      "value": 35
     },
     "opacity": {
       "random": {
@@ -420,24 +317,17 @@
       "path": false
     },
     "shadow": {
-      "blur": 0,
+      "blur": 5,
       "color": {
         "value": "#000000"
       },
-      "enable": false,
+      "enable": true,
       "offset": {
-        "x": 0,
-        "y": 0
+        "x": 3,
+        "y": 3
       }
     },
-    "shape": {
-      "options": {
-        "star": {
-          "sides": 5
-        }
-      },
-      "type": "star"
-    },
+    
     "size": {
       "random": {
         "enable": true,
@@ -445,7 +335,7 @@
       },
       "value": {
         "min": 1,
-        "max": 4
+        "max": 5
       },
       "animation": {
         "count": 0,
